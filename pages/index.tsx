@@ -33,7 +33,7 @@ import { useRecoilValue } from 'recoil';
   }: Props) => {
     const { logout, loading } = useAuth();
     const showModal = useRecoilValue(modalState)
-    const movie = useRecoilValue(movieState)
+    // const movie = useRecoilValue(movieState)
 
     if(loading) return null
 
